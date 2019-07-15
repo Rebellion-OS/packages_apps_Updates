@@ -38,7 +38,7 @@ public final class Constants {
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "ro.rebellion.device";
     static final String PROP_BUILD_VERSION = "ro.rebellion.version";
-    static final String PROP_VERSION_CODE = "ro.rebellion.showversion";
+    static final String PROP_VERSION_CODE = "ro.rebellion.ota.version_code";
     static final String OTA_URL = "https://raw.githubusercontent.com/RebellionOS/official_devices/pie/builds/%s.json";
     static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/RebellionOS/official_devices/pie/changelogs/%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
