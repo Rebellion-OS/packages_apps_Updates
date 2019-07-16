@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.rebellion.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,12 +25,12 @@ import android.os.SystemClock;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import org.pixelexperience.ota.UpdatesDbHelper;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.rebellion.ota.UpdatesDbHelper;
+import org.rebellion.ota.download.DownloadClient;
+import org.rebellion.ota.misc.Utils;
+import org.rebellion.ota.model.Update;
+import org.rebellion.ota.model.UpdateInfo;
+import org.rebellion.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

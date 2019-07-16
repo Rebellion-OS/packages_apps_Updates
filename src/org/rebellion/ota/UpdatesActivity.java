@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.rebellion.ota;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -45,12 +45,12 @@ import android.widget.Spinner;
 import android.widget.Switch;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
+import org.rebellion.ota.controller.UpdaterController;
+import org.rebellion.ota.controller.UpdaterService;
+import org.rebellion.ota.download.DownloadClient;
+import org.rebellion.ota.misc.Constants;
+import org.rebellion.ota.misc.Utils;
+import org.rebellion.ota.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

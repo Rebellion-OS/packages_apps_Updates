@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.rebellion.ota;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -46,14 +46,14 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.PermissionsUtils;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.rebellion.ota.controller.UpdaterController;
+import org.rebellion.ota.controller.UpdaterService;
+import org.rebellion.ota.misc.Constants;
+import org.rebellion.ota.misc.PermissionsUtils;
+import org.rebellion.ota.misc.StringGenerator;
+import org.rebellion.ota.misc.Utils;
+import org.rebellion.ota.model.UpdateInfo;
+import org.rebellion.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
